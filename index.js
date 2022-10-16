@@ -35,18 +35,12 @@ c5note.setAttribute('src', './audios/do3.mp3');
 
 
 
+
 $('#c').on("click",function() {
   
     c3note.play();
     c3note.currentTime = 0;
 });
-
-$('#c').keypress(function() {
- 
-    c3note.play();
-    c3note.currentTime = 0
-});
-
 
 $('#d').click(function() {
  
@@ -131,3 +125,4 @@ $('#c2').click(function() {
     c5note.play();
     c5note.currentTime = 0
 });
+
